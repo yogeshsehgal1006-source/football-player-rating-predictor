@@ -95,10 +95,10 @@ cd football-player-rating-predictor
 3) Create a virtual environment:
 python -m venv venv
 
-Activate environment (Windows PowerShell)
+Activate environment (Windows PowerShell):
 .\venv\Scripts\Activate
 
-Activate environment (Mac / Linux)
+Activate environment (Mac / Linux):
 source venv/bin/activate
 
 4) Then install the dependencies:
