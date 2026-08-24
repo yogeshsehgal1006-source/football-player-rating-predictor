@@ -5,7 +5,7 @@ from sklearn.linear_model import Lasso
 from sklearn.model_selection import KFold
 from sklearn.metrics import mean_absolute_error
 
-df = pd.read_excel("final_data/arsenal_ucl_fotmob_stats (1).xlsx")
+df = pd.read_excel("../final_data/arsenal_ucl_fotmob_stats (1).xlsx")
 
 df["position"] = df["position"].replace({"Lb": "LB"})
 
