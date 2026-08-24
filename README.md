@@ -88,8 +88,10 @@ This data suggests that I have created a fan-adjusted player rating system which
 How to Run this project:
 
 1) Run the following in the terminal git clone https://github.com/yogeshsehgal1006-source/football-player-rating-predictor.git
+
 2) Then run this:
 cd football-player-rating-predictor
+
 3) Create a virtual environment:
 python -m venv venv
 
@@ -98,10 +100,13 @@ Activate environment (Windows PowerShell)
 
 Activate environment (Mac / Linux)
 source venv/bin/activate
+
 4) Then install the dependencies:
 pip install -r requirements.txt
+
 5) Then run this:
 cd PlayerRatingML/final_project
+
 6) Then run these scripts:
 python training.py
 python rating.py
