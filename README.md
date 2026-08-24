@@ -89,7 +89,8 @@ How to Run this project:
 
 1) git clone https://github.com/yogeshsehgal1006/football-player-rating-predictor.git
 2) cd football-player-rating-predictor
-3) Download the requirements via 
+3) Download the requirements via pip install -r requirements.txt
+4) Run this in the project root directory: python final_project/rating.py
 
 
 
