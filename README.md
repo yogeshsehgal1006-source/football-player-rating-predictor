@@ -85,6 +85,12 @@ I used Lasso Regression to learn statistical relationships with fan ratings and 
 My final model achieved an MAE of 0.747 as opposed to Fotmob`0.819, which is an 8.82% improvement in MAE. The r^2 also increased from 0.231 to 0.360.
 This data suggests that I have created a fan-adjusted player rating system which is more in line with what fans rate players then what Fotmob rates players in comparison with fan ratings. Despite this, I know there are ways I can improve this model and in the near future I aim to create a model with more data, variables and accuracy in order to lower the MAE value and to increase the R^2 value.
 
+How to Run this project:
+
+1) git clone https://github.com/yogeshsehgal1006/football-player-rating-predictor.git
+2) cd football-player-rating-predictor
+3) Download the requirements via 
+
 
 
 
