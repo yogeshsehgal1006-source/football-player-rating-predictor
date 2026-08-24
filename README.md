@@ -42,7 +42,7 @@ The model placed the most weight for goals per 90, shots per 90 and the lowest w
 Statistical Rating:
 For each position group we had the following formula:
 Statistical Score = The sum of (standardized statistic * position-specific weight)
-Statistical Rating = 7.2 + 0.65 * standardized statistical score.
+Statistical Rating = 7.2 + 0.65 * standardized statistical score.(I performed a grid search from base ratings 2.00 to 9.99 and spread values from 0.00 to 1.00, incrementing in intervals of 0.05. These ranges were chosen to provide full coverage of the scale of player ratings. As a consequence, a base of 7.2 and a spread of 0.65 produced the lowest Mean Absolute Error(MAE).
 
 Combining Fotmob and Statistical Rating:
 The final rating was calculated using the following formula:
