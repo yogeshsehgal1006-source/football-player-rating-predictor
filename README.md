@@ -87,7 +87,7 @@ This data suggests that I have created a fan-adjusted player rating system which
 
 How to Run this project:
 
-1) Run the following in the terminal git clone https://github.com/yogeshsehgal1006-source/football-player-rating-predictor.git
+1) Run the following in the terminal: git clone https://github.com/yogeshsehgal1006-source/football-player-rating-predictor.git
 
 2) Then run this:
 cd football-player-rating-predictor
