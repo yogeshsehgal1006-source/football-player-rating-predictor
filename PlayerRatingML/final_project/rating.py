@@ -5,7 +5,7 @@ from sklearn.metrics import mean_absolute_error, r2_score
 from sklearn.preprocessing import StandardScaler
 
 # 1. Import my excel spreadsheet into Python and turn it into a dataframe
-df = pd.read_excel("final_data/arsenal_ucl_fotmob_stats (1).xlsx")
+df = pd.read_excel("../final_data/arsenal_ucl_fotmob_stats (1).xlsx")
 
 position_map = {  # 2. Creating a variable to group Defender Positions into Defenders, Midfielder Positions into Midfielders and Attacker Positions into Attackers
     "CB": "Defender",
